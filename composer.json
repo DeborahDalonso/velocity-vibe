@@ -1,0 +1,22 @@
+{
+    "name": "debor/trabalho",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "Classes\\": "src/classes/",
+            "Config\\": "src/config/",
+            "Utils\\": "src/utils/",
+            "Model\\": "src/classes/model/",
+            "Controller\\": "src/classes/controller/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Deborah Dalonso",
+            "email": "deborahdlns@gmail.com"
+        }
+    ],
+    "require": {
+        "kreait/firebase-php": "^6.9"
+    }
+}
